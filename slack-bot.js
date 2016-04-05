@@ -1,13 +1,13 @@
 var http = require('http');
 var slack = require('slack-client');
-var token = 'YOUR_SLACK_TOKEN';
+var token = 'xoxb-31735152998-FyaXBNNVWzJ02aqkbqpWtp5t';
 var auto_reconnect = true;
 var auto_mark_as_read = true;
 
 var polls = [];
 
 var answers = [
-    'You may rely on it',
+    'Io non ho capito',
     'As I see it, yes',
     'Yes, definitely',
     'Most likely',
