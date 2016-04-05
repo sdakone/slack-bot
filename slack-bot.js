@@ -3,6 +3,8 @@ var slack = require('slack-client');
 var token = 'xoxb-31735152998-FyaXBNNVWzJ02aqkbqpWtp5t';
 var auto_reconnect = true;
 var auto_mark_as_read = true;
+var ipaddress = process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
+var port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 
 var polls = [];
 
